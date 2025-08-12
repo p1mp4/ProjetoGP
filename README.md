@@ -1,4 +1,18 @@
+Este repositório contém o código-fonte do meu projeto final de licenciatura do curso de Engenharia Informática na UTAD. Trata-se de uma API RESTful completa, desenvolvida com .NET 8, que serve como backend para uma plataforma de gestão de propostas de projetos, candidaturas e interações entre alunos e orientadores no contexto académico.
 
+
+Funcionalidades Principais
+Gestão Completa de Propostas: Operações CRUD (Create, Read, Update, Delete) para propostas de projetos.
+
+Sistema de Consulta Avançado: A API suporta funcionalidades de filtragem, ordenação e paginação dinâmicas do lado do servidor para garantir a máxima performance, mesmo com grandes volumes de dados(Devido à gestão de tempo, foi aplicado parcialmente no mais importante).
+
+Autenticação e Autorização: Sistema de segurança robusto baseado em tokens JWT, com endpoints públicos e rotas protegidas que requerem autenticação.
+
+Sistema de Interação Social: Funcionalidade de "like/unlike" em propostas, com lógica de negócio para garantir que um utilizador só pode interagir uma vez.
+
+Documentação Interativa: Geração automática de documentação da API com Swagger/OpenAPI para facilitar os testes e a integração com um frontend.
+
+O projeto foi desenvolvido com foco na criação de uma arquitetura limpa, escalável e segura, aplicando as melhores práticas da indústria de desenvolvimento de software.
 Processo para correr a API pela primeira vez.
 
 Pré-requisitos:
@@ -29,5 +43,6 @@ Após isto para correr a API basta sempre apenas executar o comando:
 
 Para aceder ao Swagger, quando a API correr com sucesso deverá aparecer um endereço link para abrir no browser, por exemplo:
 	"http://localhost:5152" 
+
 
 
